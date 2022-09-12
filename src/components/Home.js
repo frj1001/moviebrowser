@@ -9,9 +9,8 @@ export default function Home(){
                 <div className="row">
                     <div className="col-lg-8 offset-lg-2 my-5">
                         <p className="lead">
-                            Lorem ipsum dolor sit amet, yada yada yada yada yada yada doo dee yupee, mepta orp, colosussus
-                            here you have the most precious thing that you can buy in the whole wide world and
-                            its completely at your disposal. yada doo yad doo dee yapa lee exee fee mee too yee
+                            Hi, Welcome to this Movie Browser App. This is a demo movie browser app. You can 
+                            start searching for movies here by typing in the search bar above. 
                         </p>
                     </div>
                 </div>
