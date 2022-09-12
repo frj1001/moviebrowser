@@ -31,6 +31,7 @@ function App() {
       <Navbar searchText={searchText} setSearchText={setSearchText} />
       <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='/moviebrowser' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/search' element={<Search keyword={searchText} searchResults={searchResults}/>} />
         <Route path='/movies/:id' element={<MovieView/>} />

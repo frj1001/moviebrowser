@@ -9,6 +9,10 @@ const Navbar = ({ setSearchText }) => {
   
   const inputRef = useRef()
 
+  const handleSubmit = event => {
+    event.preventDefault()
+  }
+
   function handleClick(){
     navigate('/search')
     setSearchText(inputRef.current.value)
@@ -50,7 +54,7 @@ const Navbar = ({ setSearchText }) => {
               </Link>
             </li>
           </ul>
-          <form className="d-flex">
+          <form className="d-flex" onSubmit={handleSubmit}>
             <input
               className="form-control me-2"
               type="search"
